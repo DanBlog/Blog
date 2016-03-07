@@ -17,7 +17,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog Posts <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="{{ url_for('posts', name='hello_world') }}">Hello World</a></li>
+                    <li><a href="{{ url_for('posts', name='hello_world') }}">Post 1<</a></li>
                   </ul>
               </li>
             </ul>
@@ -26,8 +26,22 @@
     <body>
         <div class="container">
             <div class="row">
-                <h3>Hello World!</h3>
-                <p>This is a blog post!</p>
+                <h3>Lambda calculus</h3>
+                <p>In our first session we studied the use of "lambda" and "if" with John "Hero Wizard Demigod" Aspden. John's 'hands off' approach allowed us to collaborate as a group and solve various issues, whilst encouraging us to think practically for solutions. The contents of the lesson concluded in us writng a program that checks if an integer is > 0 then, if not, converts it to its absolute value.
+
+The final program looked like this:
+
+(define absl (lambda (x) (if (> x 0) x(- x))))
+(absl -32) 
+
+The result being the program printing "32".</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>Lazyness</h3>
+                <p>In our first session with Billy Mayor, we were informed on the necessity of problem solving and lazyness as a software engineer. He discussed the fundamental basics of problem solving; how to identify a problem, what are the different types of problem, why we need to solve the problem. After considering problem solving, Billy progressed onto informing us on what is appropriate lazyness and why it is needed. He gave us two useful acronyms: DRY (don't repeat yourself) and KISS (keep it simple, stupid). Armed with this knowledge we are now able to maximise work efficiency whilst simultaneously doing a job to the highest standard attainable. The combination of problem solving and lazyness are the core to working professionaly as a software engineer, as abiding by these rules will allow you to produce the best work possible in the shortest time.</p>
             </div>
           </div>
         </div>
